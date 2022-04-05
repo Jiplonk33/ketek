@@ -1146,12 +1146,12 @@ break
                     let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube Owner',
-                                    url: 'https://youtube.com/channel/UCjjuhOD-Mt2XrKFptMVDysQ'
+                                    url: 'https://youtube.com/channel/UCueojYUvg1lLgdoWeX82UMw'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 838-0884-0711'
+                                    phoneNumber: '+6283113989278'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1185,12 +1185,12 @@ break
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'Yotube Owner',
-                                    url: 'https://youtube.com/channel/UCjjuhOD-Mt2XrKFptMVDysQ'
+                                    url: 'https://youtube.com/channel/UCueojYUvg1lLgdoWeX82UMw'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 838-0884-0711'
+                                    phoneNumber: '+6283113989278'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2528,12 +2528,17 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 m.reply(respon)
             }
             break
-            case 'owner': case 'kiki': {
+            case 'owner': case 'Kazuki': {
                 kiki.sendContact(m.chat, global.owner, m)
             }
             break
 case 'y':
-await kiki.send5ButImg(anu= `Haii Kak ${pushname} 🐦\n\nSaya ${botname}, Bot Ini Adalah Beta Multi-Device WhatsApp.\nJika Kamu Menemukan Semacam Bug Atau Kesalahan Mohon Dimaklumi Dulu Ya, Lapor Owner Agar Segera Di Perbaiki🙏\n\n• Library : *Baileys-MD*.\n• Prefix : ( ${prefix} )\n• Waktu Server : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n• Tanggal Server : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}\n• Wib : ${wib}\n• Wit : ${wit}\n• Wita : ${wita}` + '' + lang.menu(prefix), `© ${footer}`,thumb, [{"urlButton": {"displayText": "Source Code","url": `${sc}`}},{"urlButton": {"displayText": "YouTube Cerator","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "List Menu","id": 'command'}}] )
+await kiki.send5ButImg(anu= `Hai ${pushname} ${ucapanWaktu}
+Ini adalah allmenu nya
+Silakan di liat liat
+
+_Selamat ðŸŒ™ Menunaikan Ibadah Puasa ðŸ˜‡_ 
+1443 Hijriah\n\n• Library : *Baileys-MD*.\n• Prefix : ( ${prefix} )\n• Waktu Server : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n• Tanggal Server : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}\n• Wib : ${wib}\n• Wit : ${wit}\n• Wita : ${wita}` + '' + lang.menu(prefix), `© ${footer}`,thumb, [{"urlButton": {"displayText": "Source Code","url": `${sc}`}},{"urlButton": {"displayText": "YouTube Cerator","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "List Menu","id": 'command'}}] )
 break
 case 'allmenu':
 await kiki.send5ButImg(from, `` + '' + lang.allmenu(prefix), `© ${footer}`,thumb, [{"urlButton": {"displayText": "Source Code","url": `${sc}`}},{"urlButton": {"displayText": "YouTube Cerator","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}}] )
@@ -2599,11 +2604,11 @@ case 'thanksto':
 await kiki.send5ButImg(from, `` + '' + lang.thanksto(), `© ${footer}`,thumb, [{"urlButton": {"displayText": "Source Code","url": `${sc}`}},{"urlButton": {"displayText": "YouTube Cerator","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Back List","id": 'menu'}}] )
 break
 case 'sewabot': case 'donasi': case 'sewa': case 'buypremium': case 'donate': {
-                kiki.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/80c0f2b966ab66f70337d.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n⭔ 13k Per Group via gopay permanen\n⭔ 20k via pulsa  permanen\n\n Premium Price Bot\n⭔ 7k perminggu bulan\n\nPayment can be via Paypal/gopay/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/6283808840711 (Owner)\n\nDonate For Me : \n\n⭔ Paypal : https://telegra.ph/file/80c0f2b966ab66f70337d.jpg>\n⭔ YT KIKII VZ` }, { quoted: m }) 
+                kiki.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/6e622b86ff940b517b1d9.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n⭔ 30k Per Group via Dana 1 Bulan\n⭔ 50k via pulsa  Dana/Ovo\n\n Premium Price Bot\n⭔ 40k per bulan\n\nPayment can be via Ovo/gopay/Dana\n\nFor more details, you can chat with the owner\nhttps://wa.me/6283113989278 (Owner)\n\nDonate For Me : \n\n⭔ Dana : https://telegra.ph/file/6e622b86ff940b517b1d9.jpg>\n⭔ YT KazuKi` }, { quoted: m }) 
     }
 	break
     case 'grupowner':
-m.reply(`https://chat.whatsapp.com/JOxS05d1WWO529F40SEVEa`)
+m.reply(`https://ponselharian.com/OCAHvNnJFxEA`)
 break
             default:
                 if (budy.startsWith('=>')) {
