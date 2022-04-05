@@ -2533,12 +2533,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
             break
 case 'y':
-await kiki.send5ButImg(anu= `Hai ${pushname} ${ucapanWaktu}
-Ini adalah allmenu nya
-Silakan di liat liat
-
-_Selamat ðŸŒ™ Menunaikan Ibadah Puasa ðŸ˜‡_ 
-1443 Hijriah\n\n• Library : *Baileys-MD*.\n• Prefix : ( ${prefix} )\n• Waktu Server : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n• Tanggal Server : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}\n• Wib : ${wib}\n• Wit : ${wit}\n• Wita : ${wita}` + '' + lang.menu(prefix), `© ${footer}`,thumb, [{"urlButton": {"displayText": "Source Code","url": `${sc}`}},{"urlButton": {"displayText": "YouTube Cerator","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "List Menu","id": 'command'}}] )
+await kiki.send5ButImg(anu= `Haii Kak ${pushname} 🐦\n\nSaya ${botname}, _Selamat ðŸŒ™ Menunaikan Ibadah Puasa ðŸ˜‡_ 1443 Hijriah🙏\n\n• Library : *Baileys-MD*.\n• Prefix : ( ${prefix} )\n• Waktu Server : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n• Tanggal Server : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}\n• Wib : ${wib}\n• Wit : ${wit}\n• Wita : ${wita}` + '' + lang.menu(prefix), `© ${footer}`,thumb, [{"urlButton": {"displayText": "Source Code","url": `${sc}`}},{"urlButton": {"displayText": "YouTube Cerator","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}},{"quickReplyButton": {"displayText": "List Menu","id": 'command'}}] )
 break
 case 'allmenu':
 await kiki.send5ButImg(from, `` + '' + lang.allmenu(prefix), `© ${footer}`,thumb, [{"urlButton": {"displayText": "Source Code","url": `${sc}`}},{"urlButton": {"displayText": "YouTube Cerator","url": `${myweb}`}},{"quickReplyButton": {"displayText": "Donasi","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner","id": 'owner'}}] )
